@@ -1,45 +1,22 @@
 workspace {
+    
+    !docs docs 
 
     model {
+
+        !include include/knowledgeBase.dsl
+        !include include/system.dsl
+
         person = person "Проектировщик" "Аналитик, архитектор или любой другой член команды"
         user = person "Пользователь" "Любой из команды или вне, у кого есть доступ к рабочему пространству в Confluence"
-        system = softwareSystem "Система автодокументации" "Хранение и работа с рабочей документацией" {
-            vcs = container "Редактор" {
-                visualStudio = component "Visual Studio Code" "Либо любой другой, подходящий"
-            }
-            localRepository = container "Локальный диск"
-            renderingSystem = container "Рендеринг документации" {
-                structurizrServer = component "Stucturizr standalone server"
-            }
-            repo = container "Репозитарий" {
-                git = component "Git repository"
-                dslModel = component "Dsl model" "Модель в С4 нотации"
-                mdModel = component "Md model" "Сценарии, алгоритмы"
-                
-            }
-            builder = container "Пайплайн" "Сборка документации" {
-                pipeline = component "Сборочная джоба" "Pull, build structurizr project, build folian project" {
-                    tags "repo"
-                }
-            }
-            docsBuilder = container "Сборочник документации" {
-                foliant = component "Foliant"
-            }
-        }
-        knowledgeBase = softwareSystem "База знаний" "Отображение рабочей документации" {
-            confluenceWebApp = container "ConfluenceWebApp" {
-                tags "Web app"
-            }
-            confluence = container "Confluence"
-            }
-
+        
         person -> git "Pull/commit/push" 
         person -> visualStudio "Рабочий проект"
         visualStudio -> localRepository "Рабочая директория с локальным проектом"
         visualStudio -> renderingSystem "Рендериг документации"
         system -> confluence "Документация"
         user -> confluenceWebApp "Чтение документации"
-        confluenceWebApp -> confluence "База знаний"
+        confluence -> confluenceDB "База знаний"
         foliant -> git "Pull"
         git -> mdModel
         git -> dslModel
@@ -100,6 +77,11 @@ workspace {
             autoLayout
         }
 
+        component confluenceWebApp "confluenceWebApp" {
+            include *
+            autoLayout
+        }
+
         styles {
             element "Software System" {
                 background #1168bd
@@ -119,7 +101,6 @@ workspace {
             element "pipe" {
                 shape Pipe
             }
-
             
         }
         
