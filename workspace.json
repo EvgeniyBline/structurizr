@@ -1,0 +1,745 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "revision" : 0,
+  "lastModifiedDate" : "2022-03-21T13:34:15Z",
+  "lastModifiedAgent" : "structurizr-web/2649/diagram",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgcGVyc29uID0gcGVyc29uICLQn9GA0L7QtdC60YLQuNGA0L7QstGJ0LjQuiIgItCQ0L3QsNC70LjRgtC40LosINCw0YDRhdC40YLQtdC60YLQvtGAINC40LvQuCDQu9GO0LHQvtC5INC00YDRg9Cz0L7QuSDRh9C70LXQvSDQutC+0LzQsNC90LTRiyIKICAgICAgICB1c2VyID0gcGVyc29uICLQn9C+0LvRjNC30L7QstCw0YLQtdC70YwiICLQm9GO0LHQvtC5INC40Lcg0LrQvtC80LDQvdC00Ysg0LjQu9C4INCy0L3QtSwg0YMg0LrQvtCz0L4g0LXRgdGC0Ywg0LTQvtGB0YLRg9C/INC6INGA0LDQsdC+0YfQtdC80YMg0L/RgNC+0YHRgtGA0LDQvdGB0YLQstGDINCyIENvbmZsdWVuY2UiCiAgICAgICAgc3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gItCh0LjRgdGC0LXQvNCwINCw0LLRgtC+0LTQvtC60YPQvNC10L3RgtCw0YbQuNC4IiAi0KXRgNCw0L3QtdC90LjQtSDQuCDRgNCw0LHQvtGC0LAg0YEg0YDQsNCx0L7Rh9C10Lkg0LTQvtC60YPQvNC10L3RgtCw0YbQuNC10LkiIHsKICAgICAgICAgICAgdmNzID0gY29udGFpbmVyICLQoNC10LTQsNC60YLQvtGAIiB7CiAgICAgICAgICAgICAgICB2aXN1YWxTdHVkaW8gPSBjb21wb25lbnQgIlZpc3VhbCBTdHVkaW8gQ29kZSIgItCb0LjQsdC+INC70Y7QsdC+0Lkg0LTRgNGD0LPQvtC5LCDQv9C+0LTRhdC+0LTRj9GJ0LjQuSIKICAgICAgICAgICAgfQogICAgICAgICAgICBsb2NhbFJlcG9zaXRvcnkgPSBjb250YWluZXIgItCb0L7QutCw0LvRjNC90YvQuSDQtNC40YHQuiIKICAgICAgICAgICAgcmVuZGVyaW5nU3lzdGVtID0gY29udGFpbmVyICLQoNC10L3QtNC10YDQuNC90LMg0LTQvtC60YPQvNC10L3RgtCw0YbQuNC4IiB7CiAgICAgICAgICAgICAgICBzdHJ1Y3R1cml6clNlcnZlciA9IGNvbXBvbmVudCAiU3R1Y3R1cml6ciBzdGFuZGFsb25lIHNlcnZlciIKICAgICAgICAgICAgfQogICAgICAgICAgICByZXBvID0gY29udGFpbmVyICLQoNC10L/QvtC30LjRgtCw0YDQuNC5IiB7CiAgICAgICAgICAgICAgICBnaXQgPSBjb21wb25lbnQgIkdpdCByZXBvc2l0b3J5IgogICAgICAgICAgICB9CiAgICAgICAgICAgIGJ1aWxkZXIgPSBjb250YWluZXIgItCf0LDQudC/0LvQsNC50L0iICLQodCx0L7RgNC60LAg0LTQvtC60YPQvNC10L3RgtCw0YbQuNC4IiB7CiAgICAgICAgICAgICAgICBwaXBlbGluZSA9IGNvbXBvbmVudCAi0KHQsdC+0YDQvtGH0L3QsNGPINC00LbQvtCx0LAiICJQdWxsLCBidWlsZCBzdHJ1Y3R1cml6ciBwcm9qZWN0LCBidWlsZCBmb2xpYW4gcHJvamVjdCIKICAgICAgICAgICAgfQogICAgICAgICAgICBkb2NzQnVpbGRlciA9IGNvbnRhaW5lciAi0KHQsdC+0YDQvtGH0L3QuNC6INC00L7QutGD0LzQtdC90YLQsNGG0LjQuCIgewogICAgICAgICAgICAgICAgZm9saWFudCA9IGNvbXBvbmVudCAiRm9saWFudCIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBrbm93bGVkZ2VCYXNlID0gc29mdHdhcmVTeXN0ZW0gItCR0LDQt9CwINC30L3QsNC90LjQuSIgItCe0YLQvtCx0YDQsNC20LXQvdC40LUg0YDQsNCx0L7Rh9C10Lkg0LTQvtC60YPQvNC10L3RgtCw0YbQuNC4IiB7CiAgICAgICAgICAgIGNvbmZsdWVuY2VXZWJBcHAgPSBjb250YWluZXIgIkNvbmZsdWVuY2VXZWJBcHAiIHsKICAgICAgICAgICAgICAgIHRhZ3MgIldlYiBhcHAiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgY29uZmx1ZW5jZSA9IGNvbnRhaW5lciAiQ29uZmx1ZW5jZSIKICAgICAgICAgICAgfQoKICAgICAgICAKCiAgICAgICAgcGVyc29uIC0+IGdpdCAiUHVsbC9jb21taXQvcHVzaCIgCiAgICAgICAgcGVyc29uIC0+IHZpc3VhbFN0dWRpbyAi0KDQsNCx0L7Rh9C40Lkg0L/RgNC+0LXQutGCIgogICAgICAgIHZpc3VhbFN0dWRpbyAtPiBsb2NhbFJlcG9zaXRvcnkgItCg0LDQsdC+0YfQsNGPINC00LjRgNC10LrRgtC+0YDQuNGPINGBINC70L7QutCw0LvRjNC90YvQvCDQv9GA0L7QtdC60YLQvtC8IgogICAgICAgIHJlbmRlcmluZ1N5c3RlbSAtPiB2aXN1YWxTdHVkaW8gItCg0LXQvdC00LXRgNC40LMg0LTQvtC60YPQvNC10L3RgtCw0YbQuNC4IgogICAgICAgIHN5c3RlbSAtPiBjb25mbHVlbmNlICLQlNC+0LrRg9C80LXQvdGC0LDRhtC40Y8iCiAgICAgICAgdXNlciAtPiBjb25mbHVlbmNlV2ViQXBwICLQp9GC0LXQvdC40LUg0LTQvtC60YPQvNC10L3RgtCw0YbQuNC4IgogICAgICAgIGNvbmZsdWVuY2VXZWJBcHAgLT4gY29uZmx1ZW5jZSAi0JHQsNC30LAg0LfQvdCw0L3QuNC5IgogICAgICAgIHBpcGVsaW5lIC0+IGdpdCAiUHVsbCIKICAgICAgICBwaXBlbGluZSAtPiBzdHJ1Y3R1cml6clNlcnZlciAiQnVpbGQgaW1hZ2VzL3B1bGwiCiAgICAgICAgcGlwZWxpbmUgLT4gZm9saWFudCAiQnVpbGQgZG9jcyIKICAgICAgICBmb2xpYW50IC0+IGNvbmZsdWVuY2UgItCQ0L/QtNC10LnRgiDQsdCw0LfRiyDQt9C90LDQvdC40LkiCgogICAgfQoKICAgIHZpZXdzIHsKCiAgICAgICAgc3lzdGVtTGFuZHNjYXBlICJTeXN0ZW1MYW5kc2NhcGUiICLQntCx0LfQvtGAINC70LDQvdC00YjQsNGE0YLQsCDRgdC40YHRgtC10LzRiyIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgc3lzdGVtQ29udGV4dCBzeXN0ZW0gIlN5c3RlbUNvbnRleHQiICLQmtC+0L3RgtC10LrRgdGCINGB0LjRgdGC0LXQvNGLINCw0LLRgtC+0LTQvtC60YPQvNC10L3RgtC40YDQvtCy0LDQvdC40Y8iIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBzeXN0ZW0gIkNvbnRhaW5lcnMiICJEZXNjcmlwdGlvbiIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IHZjcyB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgcmVuZGVyaW5nU3lzdGVtICJSZW5kZXJpbmdTeXN0ZW0iICLQoNC10L3QtNC10YDQuNC90LMg0LTQvtC60YPQvNC10L3RgtCw0YbQuNC4IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBzeXN0ZW1Db250ZXh0IGtub3dsZWRnZUJhc2UgIktub3dsZWRnZUJhc2UiICLQmtC+0L3RgtC10LrRgdGCINGB0LjRgdGC0LXQvNGLINCx0LDQt9GLINC30L3QsNC90LjQuSJ7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIga25vd2xlZGdlQmFzZSAiQ29uZmx1ZW5jZSIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGJ1aWxkZXIgIlBpcGVsaW5lIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgZG9jc0J1aWxkZXIgIkRvY3NCdWlsZGVyIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJTb2Z0d2FyZSBTeXN0ZW0iIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzExNjhiZAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJQZXJzb24iIHsKICAgICAgICAgICAgICAgIHNoYXBlIHBlcnNvbgogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMDg0MjdiCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIldlYiBhcHAiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFdlYkJyb3dzZXIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgIH0KfQo="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "name" : "Пользователь",
+      "description" : "Любой из команды или вне, у кого есть доступ к рабочему пространству в Confluence",
+      "relationships" : [ {
+        "id" : "30",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "15",
+        "description" : "Чтение документации",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "29",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "16",
+        "description" : "Чтение документации",
+        "defaultTags" : [ "Relationship" ]
+      } ],
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Person" ]
+    }, {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "name" : "Проектировщик",
+      "description" : "Аналитик, архитектор или любой другой член команды",
+      "relationships" : [ {
+        "id" : "20",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Pull/commit/push",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "21",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Рабочий проект",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "18",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "10",
+        "description" : "Pull/commit/push",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "22",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Рабочий проект",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "19",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "9",
+        "description" : "Pull/commit/push",
+        "defaultTags" : [ "Relationship" ]
+      } ],
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Person" ]
+    } ],
+    "softwareSystems" : [ {
+      "id" : "3",
+      "tags" : "Element,Software System",
+      "name" : "Система автодокументации",
+      "description" : "Хранение и работа с рабочей документацией",
+      "relationships" : [ {
+        "id" : "28",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "15",
+        "description" : "Документация",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "27",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "17",
+        "description" : "Документация",
+        "defaultTags" : [ "Relationship" ]
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "name" : "Репозитарий",
+        "components" : [ {
+          "id" : "10",
+          "tags" : "Element,Component",
+          "name" : "Git repository",
+          "size" : 0,
+          "defaultTags" : [ "Element", "Component" ]
+        } ],
+        "defaultTags" : [ "Element", "Container" ]
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container",
+        "name" : "Пайплайн",
+        "description" : "Сборка документации",
+        "relationships" : [ {
+          "id" : "38",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "8",
+          "description" : "Build images/pull",
+          "defaultTags" : [ "Relationship" ]
+        }, {
+          "id" : "42",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "14",
+          "description" : "Build docs",
+          "defaultTags" : [ "Relationship" ]
+        }, {
+          "id" : "39",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "7",
+          "description" : "Build images/pull",
+          "defaultTags" : [ "Relationship" ]
+        }, {
+          "id" : "43",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "13",
+          "description" : "Build docs",
+          "defaultTags" : [ "Relationship" ]
+        }, {
+          "id" : "34",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "10",
+          "description" : "Pull",
+          "defaultTags" : [ "Relationship" ]
+        }, {
+          "id" : "35",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "9",
+          "description" : "Pull",
+          "defaultTags" : [ "Relationship" ]
+        } ],
+        "components" : [ {
+          "id" : "12",
+          "tags" : "Element,Component",
+          "name" : "Сборочная джоба",
+          "description" : "Pull, build structurizr project, build folian project",
+          "relationships" : [ {
+            "id" : "40",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "14",
+            "description" : "Build docs",
+            "defaultTags" : [ "Relationship" ]
+          }, {
+            "id" : "37",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "7",
+            "description" : "Build images/pull",
+            "defaultTags" : [ "Relationship" ]
+          }, {
+            "id" : "36",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "8",
+            "description" : "Build images/pull",
+            "defaultTags" : [ "Relationship" ]
+          }, {
+            "id" : "32",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "10",
+            "description" : "Pull",
+            "defaultTags" : [ "Relationship" ]
+          }, {
+            "id" : "33",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "9",
+            "description" : "Pull",
+            "defaultTags" : [ "Relationship" ]
+          }, {
+            "id" : "41",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "13",
+            "description" : "Build docs",
+            "defaultTags" : [ "Relationship" ]
+          } ],
+          "size" : 0,
+          "defaultTags" : [ "Element", "Component" ]
+        } ],
+        "defaultTags" : [ "Element", "Container" ]
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "name" : "Редактор",
+        "relationships" : [ {
+          "id" : "24",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "6",
+          "description" : "Рабочая директория с локальным проектом",
+          "defaultTags" : [ "Relationship" ]
+        } ],
+        "components" : [ {
+          "id" : "5",
+          "tags" : "Element,Component",
+          "name" : "Visual Studio Code",
+          "description" : "Либо любой другой, подходящий",
+          "relationships" : [ {
+            "id" : "23",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "6",
+            "description" : "Рабочая директория с локальным проектом",
+            "defaultTags" : [ "Relationship" ]
+          } ],
+          "size" : 0,
+          "defaultTags" : [ "Element", "Component" ]
+        } ],
+        "defaultTags" : [ "Element", "Container" ]
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container",
+        "name" : "Сборочник документации",
+        "relationships" : [ {
+          "id" : "47",
+          "tags" : "Relationship",
+          "sourceId" : "13",
+          "destinationId" : "15",
+          "description" : "Апдейт базы знаний",
+          "defaultTags" : [ "Relationship" ]
+        }, {
+          "id" : "46",
+          "tags" : "Relationship",
+          "sourceId" : "13",
+          "destinationId" : "17",
+          "description" : "Апдейт базы знаний",
+          "defaultTags" : [ "Relationship" ]
+        } ],
+        "components" : [ {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "name" : "Foliant",
+          "relationships" : [ {
+            "id" : "44",
+            "tags" : "Relationship",
+            "sourceId" : "14",
+            "destinationId" : "17",
+            "description" : "Апдейт базы знаний",
+            "defaultTags" : [ "Relationship" ]
+          }, {
+            "id" : "45",
+            "tags" : "Relationship",
+            "sourceId" : "14",
+            "destinationId" : "15",
+            "description" : "Апдейт базы знаний",
+            "defaultTags" : [ "Relationship" ]
+          } ],
+          "size" : 0,
+          "defaultTags" : [ "Element", "Component" ]
+        } ],
+        "defaultTags" : [ "Element", "Container" ]
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container",
+        "name" : "Локальный диск",
+        "defaultTags" : [ "Element", "Container" ]
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container",
+        "name" : "Рендеринг документации",
+        "relationships" : [ {
+          "id" : "26",
+          "tags" : "Relationship",
+          "sourceId" : "7",
+          "destinationId" : "4",
+          "description" : "Рендериг документации",
+          "defaultTags" : [ "Relationship" ]
+        }, {
+          "id" : "25",
+          "tags" : "Relationship",
+          "sourceId" : "7",
+          "destinationId" : "5",
+          "description" : "Рендериг документации",
+          "defaultTags" : [ "Relationship" ]
+        } ],
+        "components" : [ {
+          "id" : "8",
+          "tags" : "Element,Component",
+          "name" : "Stucturizr standalone server",
+          "size" : 0,
+          "defaultTags" : [ "Element", "Component" ]
+        } ],
+        "defaultTags" : [ "Element", "Container" ]
+      } ],
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "15",
+      "tags" : "Element,Software System",
+      "name" : "База знаний",
+      "description" : "Отображение рабочей документации",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "16",
+        "tags" : "Element,Container,Web app",
+        "name" : "ConfluenceWebApp",
+        "relationships" : [ {
+          "id" : "31",
+          "tags" : "Relationship",
+          "sourceId" : "16",
+          "destinationId" : "17",
+          "description" : "База знаний",
+          "defaultTags" : [ "Relationship" ]
+        } ],
+        "defaultTags" : [ "Element", "Container" ]
+      }, {
+        "id" : "17",
+        "tags" : "Element,Container",
+        "name" : "Confluence",
+        "defaultTags" : [ "Element", "Container" ]
+      } ],
+      "defaultTags" : [ "Element", "Software System" ]
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "description" : "Обзор ландшафта системы",
+      "key" : "SystemLandscape",
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 1566,
+        "height" : 2116
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 233,
+        "y" : 208
+      }, {
+        "id" : "2",
+        "x" : 958,
+        "y" : 908
+      }, {
+        "id" : "3",
+        "x" : 208,
+        "y" : 958
+      }, {
+        "id" : "15",
+        "x" : 571,
+        "y" : 1608
+      } ],
+      "relationships" : [ {
+        "id" : "28"
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "30"
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "softwareSystemId" : "15",
+      "description" : "Контекст системы базы знаний",
+      "key" : "KnowledgeBase",
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 1566,
+        "height" : 1416
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "2",
+        "x" : 208,
+        "y" : 208
+      }, {
+        "id" : "3",
+        "x" : 908,
+        "y" : 258
+      }, {
+        "id" : "15",
+        "x" : 546,
+        "y" : 908
+      } ],
+      "relationships" : [ {
+        "id" : "28"
+      }, {
+        "id" : "30"
+      } ]
+    }, {
+      "softwareSystemId" : "3",
+      "description" : "Контекст системы автодокументирования",
+      "key" : "SystemContext",
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 866,
+        "height" : 2016
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 233,
+        "y" : 208
+      }, {
+        "id" : "3",
+        "x" : 208,
+        "y" : 908
+      }, {
+        "id" : "15",
+        "x" : 208,
+        "y" : 1508
+      } ],
+      "relationships" : [ {
+        "id" : "28"
+      }, {
+        "id" : "20"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "15",
+      "key" : "Confluence",
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 1720,
+        "height" : 2120
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "2",
+        "x" : 1024,
+        "y" : 213
+      }, {
+        "id" : "3",
+        "x" : 249,
+        "y" : 913
+      }, {
+        "id" : "16",
+        "x" : 999,
+        "y" : 913
+      }, {
+        "id" : "17",
+        "x" : 999,
+        "y" : 1513
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "31"
+      } ]
+    }, {
+      "softwareSystemId" : "3",
+      "description" : "Description",
+      "key" : "Containers",
+      "paperSize" : "A3_Landscape",
+      "dimensions" : {
+        "width" : 3654,
+        "height" : 2808
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 1617,
+        "y" : 329
+      }, {
+        "id" : "1",
+        "x" : 3046,
+        "y" : 279
+      }, {
+        "id" : "13",
+        "x" : 867,
+        "y" : 979
+      }, {
+        "id" : "4",
+        "x" : 1992,
+        "y" : 1579
+      }, {
+        "id" : "15",
+        "x" : 208,
+        "y" : 1579
+      }, {
+        "id" : "6",
+        "x" : 1992,
+        "y" : 2179
+      }, {
+        "id" : "7",
+        "x" : 1617,
+        "y" : 979
+      }, {
+        "id" : "9",
+        "x" : 2367,
+        "y" : 979
+      } ],
+      "relationships" : [ {
+        "id" : "26"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "22",
+        "vertices" : [ {
+          "x" : 2967,
+          "y" : 1279
+        } ]
+      }, {
+        "id" : "43"
+      }, {
+        "id" : "47"
+      }, {
+        "id" : "39"
+      }, {
+        "id" : "19"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "--Component",
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 1566,
+        "height" : 2016
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "4",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 208,
+        "y" : 208
+      }, {
+        "id" : "5",
+        "x" : 546,
+        "y" : 908
+      }, {
+        "id" : "6",
+        "x" : 546,
+        "y" : 1508
+      }, {
+        "id" : "7",
+        "x" : 908,
+        "y" : 258
+      } ],
+      "relationships" : [ {
+        "id" : "25"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "21"
+      } ]
+    }, {
+      "key" : "DocsBuilder",
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 1916
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "13",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 329,
+        "y" : 208
+      }, {
+        "id" : "14",
+        "x" : 329,
+        "y" : 808
+      }, {
+        "id" : "15",
+        "x" : 329,
+        "y" : 1408
+      } ],
+      "relationships" : [ {
+        "id" : "42"
+      }, {
+        "id" : "45"
+      } ]
+    }, {
+      "description" : "Рендеринг документации",
+      "key" : "RenderingSystem",
+      "paperSize" : "A6_Portrait",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 1420
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "7",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 329,
+        "y" : 208
+      }, {
+        "id" : "8",
+        "x" : 329,
+        "y" : 808
+      } ],
+      "relationships" : [ {
+        "id" : "38"
+      } ]
+    }, {
+      "key" : "Pipeline",
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2366,
+        "height" : 1454
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "11",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "12",
+        "x" : 958,
+        "y" : 329
+      }, {
+        "id" : "13",
+        "x" : 208,
+        "y" : 929
+      }, {
+        "id" : "7",
+        "x" : 958,
+        "y" : 929
+      }, {
+        "id" : "9",
+        "x" : 1708,
+        "y" : 929
+      } ],
+      "relationships" : [ {
+        "id" : "37"
+      }, {
+        "id" : "41"
+      }, {
+        "id" : "33"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Software System",
+          "background" : "#1168bd",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Person",
+          "background" : "#08427b",
+          "color" : "#ffffff",
+          "shape" : "Person"
+        }, {
+          "tag" : "Web app",
+          "shape" : "WebBrowser"
+        } ]
+      },
+      "terminology" : { },
+      "lastSavedView" : "Confluence"
+    }
+  }
+}
