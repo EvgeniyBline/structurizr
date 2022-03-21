@@ -13,9 +13,14 @@ workspace {
             }
             repo = container "Репозитарий" {
                 git = component "Git repository"
+                dslModel = component "Dsl model" "Модель в С4 нотации"
+                mdModel = component "Md model" "Сценарии, алгоритмы"
+                
             }
             builder = container "Пайплайн" "Сборка документации" {
-                pipeline = component "Сборочная джоба" "Pull, build structurizr project, build folian project"
+                pipeline = component "Сборочная джоба" "Pull, build structurizr project, build folian project" {
+                    tags "repo"
+                }
             }
             docsBuilder = container "Сборочник документации" {
                 foliant = component "Foliant"
@@ -28,20 +33,19 @@ workspace {
             confluence = container "Confluence"
             }
 
-        
-
         person -> git "Pull/commit/push" 
         person -> visualStudio "Рабочий проект"
         visualStudio -> localRepository "Рабочая директория с локальным проектом"
-        renderingSystem -> visualStudio "Рендериг документации"
+        visualStudio -> renderingSystem "Рендериг документации"
         system -> confluence "Документация"
         user -> confluenceWebApp "Чтение документации"
         confluenceWebApp -> confluence "База знаний"
-        pipeline -> git "Pull"
-        pipeline -> structurizrServer "Build images/pull"
+        foliant -> git "Pull"
+        git -> mdModel
+        git -> dslModel
+        pipeline -> structurizrServer "Build images"
         pipeline -> foliant "Build docs"
         foliant -> confluence "Апдейт базы знаний"
-
     }
 
     views {
@@ -62,6 +66,11 @@ workspace {
         }
 
         component vcs {
+            include *
+            autoLayout
+        }
+
+        component repo "Repository" {
             include *
             autoLayout
         }
@@ -106,6 +115,12 @@ workspace {
             element "Web app" {
                 shape WebBrowser
             }
+
+            element "pipe" {
+                shape Pipe
+            }
+
+            
         }
         
     }
